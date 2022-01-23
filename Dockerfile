@@ -13,8 +13,7 @@ RUN apt-get update && \
   #chromium \ kalau mau make puppeteer :v
 
   imagemagick && \
-
-  rm -rf /var/lib/apt/lists/*
+  
 
 COPY package.json .
 
